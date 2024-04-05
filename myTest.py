@@ -7,7 +7,9 @@ def getLocalTime() -> None:
 
     now = datetime.today().strftime('%Y-%m-%d %H:%M:%S:%f')
     print(Rf"The now time is {now}")
-    
     print (Rf"This is a test... really!")
+
+    print(Rf"I am creating a new branch")
+    print("I am now testing merging and publish")
 
 getLocalTime()
