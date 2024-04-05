@@ -30,4 +30,6 @@ completion = client.chat.completions.create(
 )
 
 print(completion.choices[0].message)
+getLocalTime()  # Dummy function call that tests local time
+
 
