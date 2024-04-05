@@ -10,5 +10,6 @@ def getLocalTime() -> None:
     print (Rf"This is a test... really!")
 
     print(Rf"I am creating a new branch")
+    print("I am now testing merging and publish")
 
 getLocalTime()
