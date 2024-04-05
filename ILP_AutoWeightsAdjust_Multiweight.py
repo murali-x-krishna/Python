@@ -23,6 +23,9 @@ try:
 except:
   pass
 
+def myNew() -> None:
+   print('I am done')
+   
 def log(inp_str):
   """
   Logs relevant outputs to weightsAdjust_log.txt
